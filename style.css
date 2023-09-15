@@ -1,0 +1,61 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+
+}
+
+/********** Common-Style-Area **********/
+.container{
+    padding: 0 0 80px 120px;
+}
+.button {
+    background: #E55473;
+    color: #ffffff;
+    border: 0px;
+    border-radius: 8px;
+    padding: 20px 43px;
+}
+
+
+/**********End-Common-Style-Area **********/
+
+
+/********** Banner-Area Style **********/
+.banner-area {
+    background: rgba(229, 84, 115, 0.10);
+    display: flex;
+    max-width: ;
+    background-image: url(images/pngwing\ 10.png);
+    background-repeat: no-repeat;
+    background-position: bottom right; 
+    background-size: 535px 650px;
+    margin-bottom: 100px;
+    
+
+}
+.left-area-banner{
+    margin-top: 50px;
+    
+}
+.banner-title {
+    color: #272727;
+    font-family: Lato;
+    font-size: 80px;
+    width: 708px;
+
+}
+
+ .banner-discription {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    width: 634px;
+    text-align: justify;
+    margin-bottom: 50px;
+    
+} 
+
+
+/********** End-Banner-Area Style **********/
