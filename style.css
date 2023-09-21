@@ -6,9 +6,10 @@ body {
 }
 
 /********** Common-Style-Area **********/
-.container{
+.container {
     padding: 0 0 80px 120px;
 }
+
 .button {
     background: #E55473;
     color: #ffffff;
@@ -16,6 +17,7 @@ body {
     border-radius: 8px;
     padding: 20px 43px;
 }
+
 
 
 /**********End-Common-Style-Area **********/
@@ -28,16 +30,18 @@ body {
     max-width: ;
     background-image: url(images/pngwing\ 10.png);
     background-repeat: no-repeat;
-    background-position: bottom right; 
+    background-position: bottom right;
     background-size: 535px 650px;
     margin-bottom: 100px;
-    
+
 
 }
-.left-area-banner{
+
+.left-area-banner {
     margin-top: 50px;
-    
+
 }
+
 .banner-title {
     color: #272727;
     font-family: Lato;
@@ -46,7 +50,7 @@ body {
 
 }
 
- .banner-discription {
+.banner-discription {
     color: rgba(39, 39, 39, 0.60);
     font-family: Lato;
     font-size: 18px;
@@ -54,8 +58,92 @@ body {
     width: 634px;
     text-align: justify;
     margin-bottom: 50px;
-    
-} 
+
+}
+
+.section{
+    margin-bottom: 100px;
+}
 
 
 /********** End-Banner-Area Style **********/
+
+/* Featred-Area */
+
+.main {
+    margin: auto;
+    padding: 50px;
+    text-align: center;
+}
+
+.featured-title {
+    text-align: center;
+    color: #272727;
+}
+
+.featured-discriptions {
+    text-align: center;
+    color: #27272799;
+}
+
+.flower-section{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.flower img{
+    margin-top: 50px;
+    height: 300px;
+}
+
+.flower p {
+    text-align: center;
+
+}
+
+.flower-1{
+    background-color:#A7216226;
+    width: 230px;
+    margin-left:10px;
+    border-radius: 200px 200px 0px 0px;
+}
+
+.flower-2{
+    background-color: #0597A026;
+    width: 230px;
+    margin-left:10px;
+    border-radius: 200px 200px 0px 0px;
+}
+
+.flower-3{
+    background-color: #477D1126;
+    width: 230px;
+    margin-left:10px;
+    border-radius: 200px 200px 0px 0px;
+}
+
+.support-area{
+    background-color: #f4eeee;
+    margin:  0 150px 0 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    border-radius: 10px;
+    
+
+}
+.support-area help{
+    padding: 50px;
+}
+
+.help a{
+        display: block;
+        text-decoration: none;  
+}
+
+
+
+
+/* End-Featred-Area */
