@@ -61,7 +61,7 @@ body {
 
 }
 
-.section{
+.section {
     margin-bottom: 100px;
 }
 
@@ -86,13 +86,13 @@ body {
     color: #27272799;
 }
 
-.flower-section{
+.flower-section {
     display: flex;
     justify-content: space-around;
-    
+
 }
 
-.flower img{
+.flower img {
     margin-top: 50px;
     height: 300px;
 }
@@ -102,48 +102,140 @@ body {
 
 }
 
-.flower-1{
-    background-color:#A7216226;
+.flower-1 {
+    background-color: #A7216226;
     width: 230px;
-    margin-left:10px;
+    margin-left: 10px;
     border-radius: 200px 200px 0px 0px;
 }
 
-.flower-2{
+.flower-2 {
     background-color: #0597A026;
     width: 230px;
-    margin-left:10px;
+    margin-left: 10px;
     border-radius: 200px 200px 0px 0px;
 }
 
-.flower-3{
+.flower-3 {
     background-color: #477D1126;
     width: 230px;
-    margin-left:10px;
+    margin-left: 10px;
     border-radius: 200px 200px 0px 0px;
 }
 
-.support-area{
+.support-area {
     background-color: #f4eeee;
-    margin:  0 150px 0 150px;
+    margin: 0 150px 0 150px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 200px;
     border-radius: 10px;
-    
+
 
 }
-.support-area help{
+
+.support-area help {
     padding: 50px;
 }
 
-.help a{
-        display: block;
-        text-decoration: none;  
+.help a {
+    display: block;
+    text-decoration: none;
 }
 
 
-
-
 /* End-Featred-Area */
+
+/* Hot-deal-area */
+
+.off {
+    color: #E55473;
+}
+
+.left-area {
+    width: 600px;
+}
+
+.hot-deal {
+    margin-top: 100px;
+    background-color: #E554730D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hot-deal h2 {
+    color: #272727;
+    font-size: 40px;
+}
+
+.hot-deal p {
+    color: #27272799;
+}
+
+.hot-deal img {
+    height: 400px;
+    margin-left: 100px;
+}
+
+/* instragram-area */
+.instragram-section p {
+    color: #27272799;
+}
+
+.instra-img {
+    display: flex;
+    width: 342px;
+    height: 396px;
+    flex-shrink: 0;
+}
+
+.instra-img img {
+    margin-top: 30px;
+    width: 245px;
+}
+
+
+.instra-img {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.massages {
+    background-image: url("images/Rectangle\ 9.png");
+    padding: 50px;
+
+}
+
+.massages input {
+    font-size: 20px;
+    padding: 4px;
+    border: 1px solid skyblue;
+    border-radius: 5px;
+}
+
+/* footer  */
+
+footer{
+    background-color: black;
+    color: white;
+}
+.footer{
+    padding: 100px;
+    text-align: center;
+    width: 1000px;
+    margin: 0 auto;
+}
+.footer h2{
+    font-size: 48px;
+}
+.footer p{
+    padding: 20px;
+    font-size: 16px;
+    
+}
+
+.copy-right{
+    color: rgba(255, 255, 255, 0.40);;
+}
